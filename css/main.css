@@ -205,7 +205,7 @@ i.fa-brands.fa-github {
 .container__content-all{
     margin-bottom:20px;
 }
-.container__content-info h1{
+.container__content-about-me h1{
     font-size:1.6rem;
     font-weight: 300;
     /* text-align: center; */
@@ -263,7 +263,7 @@ i.fa-brands.fa-github {
     /* margin: 20px 0; */
     /* margin-bottom:10px; */
 }
-.results-img{
+.projects-img{
     position: relative;
     overflow: hidden;
     box-shadow: 0px 5px 5px 1px  rgba(50, 50, 50, 0.402);
@@ -292,7 +292,7 @@ i.fa-brands.fa-github {
     justify-content: center;
     align-items: center;
 }
-.results-img-hover {
+.projects-img-hover {
     position: absolute;
     /* top: -100%; */
     bottom: -100%;
@@ -323,7 +323,7 @@ i.fa-brands.fa-github {
     display: block;
     margin-bottom: 20px;
 }
-.results-img:hover .results-img-hover{
+.projects-img:hover .projects-img-hover{
     bottom:0;
 }
 /* SLIDE - CONTAINER */
@@ -423,31 +423,31 @@ i.fa-brands.fa-github {
     text-align: center;
     font-weight:300;
 }
-/* CONTAINER TARGET */
-.container__target h1{
+/* CONTAINER targets */
+.container__targets h1{
     font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 20px;
     text-align: center;
 
 }
-.container__target h2{
+.container__targets h2{
     font-size: 1.4rem;
     font-weight: 300;
     position: relative;
 }
-.container__target h4{
+.container__targets h4{
     font-size: 1.4rem;
     font-weight: 300;
     color:rgb(121, 112, 112);
 }
-.container__target p{
+.container__targets p{
     font-size: 1.2rem;
     font-weight: 300;
     margin-bottom: 20px;
     position: relative;
 }
-.container__target p::after{
+.container__targets p::after{
     content:"";
     position:absolute;
     width: 3px;
@@ -456,7 +456,7 @@ i.fa-brands.fa-github {
     left:-10px;
     top: 0;
 }
-.container__target h2::after{
+.container__targets h2::after{
     content:"";
     position:absolute;
     width: 3px;
@@ -465,14 +465,14 @@ i.fa-brands.fa-github {
     left:-10px;
     top: 0;
 }
-/* CONTAINER-ẸNJOIN */
-.container__enjoin h2{
+/* CONTAINER-HOBBIES */
+.container__hobbies h2{
     font-size:1.8rem;
     font-weight: 300;
     text-align: center;
 }
 
-.container__enjoin-item{
+.container__hobbies-item{
     display: flex;
     padding:20px;
     background-color:rgba(255, 255, 255, 0.3);
@@ -484,13 +484,13 @@ i.fa-brands.fa-github {
     transition: transform linear 0.2s;
     transform: translateY(0);
 }
-.container__enjoin-item:hover{
+.container__hobbies-item:hover{
     transform: translateY(-3px);
 }
-.container__enjoin-item:last-child{
+.container__hobbies-item:last-child{
     margin-bottom:0;
 }
-.container__enjoin-item img{
+.container__hobbies-item img{
     min-width:180px;
     /* height:100px; */
     border-radius: 20px;
@@ -499,11 +499,11 @@ i.fa-brands.fa-github {
     max-height: 100px;
 }
 
-.enjoin-description h1{
+.hobbies-description h1{
     font-size:1.6rem;
     font-weight: 300;
     margin-bottom: 5px;
 }
-.enjoin-description p{
+.hobbies-description p{
     text-align: left;
 }
