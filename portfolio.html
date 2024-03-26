@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/chó mặc áo.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My InFo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resetcss.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/97aa991169.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="loading active ">
+        <p>LOADING DATA...</p>
+    </div>
+    <div class="main">
+        <style>
+            @keyframes rainbow {
+            0% { color: red; }
+            5% { color: orange; }
+            10% { color: yellow; }
+            15% { color: lime; }
+            20% { color: green; }
+            25% { color: teal; }
+            30% { color: aqua; }
+            35% { color: dodgerblue; }
+            40% { color: blue; }
+            45% { color: navy; }
+            50% { color: purple; }
+            55% { color: fuchsia; }
+            60% { color: pink; }
+            65% { color: hotpink; }
+            70% { color: deeppink; }
+            75% { color: tomato; }
+            80% { color: orangered; }
+            85% { color: coral; }
+            90% { color: gold; }
+            95% { color: yellow; }
+            100% { color: red; }
+            }
+            .marquee-text {
+                font-size: 30px; 
+            }
+          </style>
+          
+          <marquee onMouseOver="this.stop()" onMouseOut="this.start()" behavior="scroll" direction="right" style="animation: rainbow 20s infinite;">
+            Welcome to lil kewwi's website!
+          </marquee>
+        <div class="grid wide">
+            <!-- heading -->
+            <div class="row  header">
+                    <div class="header__left col l-6 m-12 c-12">
+                        <div class="row">
+                            <div class="header__avata col l-4 m-4 c-12">
+                                <img  src="selfie.png" alt="kewwi the goat" class="header__avata-img">
+                            </div>
+                            <div class="header__left-info col l-8 m-8 c-12 ">
+                                <h1 class="header__left-name">Chua Te Minh Duc</h1>
+                                <div class="header__left-description">I'm Nguyen Minh Duc a.k.a Kewwi_ng. Feel free to call me Cyber Heisenberg the way i cook the code (basically tech meth) or Gandalf the tech wiz of decision tree<br>
+                                    <img alt = "GIF" src=Cauldron.gif width="25px" /><img alt = "GIF" src=gandalf_parrot.gif width="40px" /> </div>
+                                <div class="header__left-icon">
+                                    <a href="https://www.facebook.com/cauvong.kilan.3/"target="_blank" >
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/mduc4723/"target="_blank" >
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://m.me/cauvong.kilan.3" target="_blank">
+                                        <i class="fa-brands fa-facebook-messenger"></i>
+                                    </a>
+                                    <a href="https://github.com/cuddles47" target="_blank">
+                                        <i class="fa-brands fa-github" ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__right col l-6 m-12 c-12">
+                        <div class="row">
+                            <div class="header__right-info col l-6 m-6 c-12">
+                                <h3>CONTACT
+                                    <p >0332781578</p>
+                                    <br>
+                                </h3>
+                                <h3>DOB
+                                    <p >04/07/2003</p>
+                                </h3>
+                            </div>
+                            <div class="header__right-info col l-6 m-6 c-12">
+                                <h3>EMAIL
+                                    <p >kilancauvonglaplanh
+                                        @gmail.com
+                                </h3>
+                                <h3>CURRENT PLACE
+                                    <p >THAI HA / HA NOI</p>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+            <!-- CONTAINER -->
+            <div class="row container">
+                <!-- CONTAINER SELECTION -->
+                <div class="container__selection-all col l-2 m-12 c-12 ">
+                    <div class="container__selection ">
+                        <div class="container__selection-item active">
+                            <a href="#info">
+                            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/lhwyshcs.json"
+                                    trigger="hover"
+                                    style="width:80px;height:80px">
+                                </lord-icon>
+                            <p>ABOUT ME</p>
+                        </a>
+                        </div>
+                        <div class="container__selection-item ">
+                            <a href="#result">
+                                <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/lzgmgrnn.json"
+                                    trigger="hover"
+                                    style="width:65px;height:65px">
+                                </lord-icon>
+                            <p>MY PROJECTS</p>
+                        </a>
+                        </div>
+                        <div class="container__selection-item">
+                            <a href="#target">
+                            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/lakxizal.json"
+                                    trigger="hover"
+                                    style="width:80px;height:80px">
+                                </lord-icon>
+                            <p>AIMS</p>
+                        </a>
+                        </div>
+                        <div class="container__selection-item ">
+                            <a href="#result">
+                                <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/wxnxiano.json"
+                                    trigger="morph"
+                                    style="width:80px;height:80px">
+                                </lord-icon>
+                            <p>EDUCATION</p>
+                        </a>
+                        </div>
+                        <div class="container__selection-item">
+                            <a href="#hobby">
+                            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/etgnxeer.json"
+                                    trigger="hover"
+                                    style="width:80px;height:80px">
+                                </lord-icon>
+                            <p>Sở Thích</p>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT -->
+                <div class="container__content-all col l-10 m-12 c-12">
+                    <!-- INFOMATION -->
+                    <div id="info" class="container__content active ">
+                        <div class="container__content-info ">
+                                <div class="container__content-title">
+                                    <h1>ABOUT ME</h1>
+                                </div>
+                                <div class="title__discription">
+                                    <p>
+                                        Salute! I'm currently navigating my third year at Uneti University and FPT Skillking in Vietnam, juggling roles as an avid student, a proficient developer, and a dedicated Python instructor. In addition to my tech-centric pursuits, I derive pleasure from gardening, relish invigorating jogs, and partake in lively gaming sessions with friends.</p>
+                                    <br>
+                                    <p>
+                                        I am deeply committed to evolving into a seasoned software developer and design enthusiast, fueled by an unyielding dedication to self-improvement. Beyond coding and tending to my garden, I find joy in experimenting with cooking and turning basic ingredients into gratifying meals.</p>
+                                    <br>
+                                    <p>
+                                        With a down-to-earth demeanor and a straightforward approach to life, I embrace simplicity while maintaining a continuous thirst for learning. I thrive on challenges and am motivated by the prospect of personal and professional growth. An enthusiastic seeker of knowledge, I am quick to adapt to new technologies, consistently willing to study emerging trends, and pride myself on being a rapid learner.</p>
+                                    <br>
+                                    <p>In my quest for mastery, I actively seek a mentor who shares my passion and is dedicated to guiding me on this dynamic journey. Whether I'm delving into the intricacies of coding, exploring innovative solutions, or actively pursuing the latest in technology, I bring a relentless pursuit of excellence and a readiness to embrace new challenges. </p>  
+                                </div>
+                                <div class="title__discription">
+                                    <br>
+                                    <!-- <p>
+                                        Mình không đám nói là bản thân chăm học trong 2 tháng vừa rồi mình học đôi lúc hay chảnh mảng không tập trung. Nhưng rồi trang Web này vẫn được mình cho ra đời mình hi vọng rằng sẽ gặp được một "Chiến Hữu hay Đối Thủ" để có thể giao tranh "Đấu Kiếm" sớm tiến tới đắc đạo thống nhất thiên hạ.
+                                    </p> -->
+                               <h1>These quotes have been my guiding lights. They helped define me and make me the man I am today</h1>
+                                </div>
+                            <div class="slide__container">
+                                <i class="slide-left fa-solid fa-angle-left"></i>
+                                <i class="slide-right fa-solid fa-angle-right"></i>
+                                <ul class="slide-dot">
+                                    <li class="slide-dot-item active"></li>
+                                    <li class="slide-dot-item"></li>
+                                    <li class="slide-dot-item"></li>
+                                    <li class="slide-dot-item"></li>
+                                    <li class="slide-dot-item"></li>
+                                    <li class="slide-dot-item"></li>
+                                </ul>
+
+                                <div class="slide-main active">
+                                    
+                                    <div class="slide-img">
+                                        <img src="andrew_tates.png" alt="">
+                                    </div>
+                                    <div class="slide-content">
+                                        <h1>Andrew Tates</h1>
+                                    <p>"The future belongs to those who prepare for it today."</p>
+                                    </div>
+                                </div>
+                                <div class="slide-main ">
+                                    <div class="slide-img">
+                                        <img src="elon_múk.png" alt="">
+                                    </div>
+                                    <div class="slide-content">
+                                        <h1>Elon Musk</h1>
+                                    <p>"Engineering is the closest thing to magic that exists in the world."</p>
+                                    </div>
+                                </div>
+                                <div class="slide-main">
+                                    <div class="slide-img">
+                                        <img src="andrew_tates.png" alt="">
+                                    </div>
+                                    <div class="slide-content">
+                                        <h1>Andrew Tates</h1>
+                                    <p>"Success is not a destination, it's a journey. Enjoy the process and the results will come."</p>
+                                    </div>
+                                </div>
+                                <div class="slide-main ">
+                                    <div class="slide-img">
+                                        <img src="arima.png" alt="">
+                                    </div>
+                                    <div class="slide-content">
+                                        <h1>Ishida Sui</h1>
+                                    <p>"Sometimes good people make bad choices. It doesn't mean they are bad people. It means they're human."</p>
+                                    </div>
+                                </div>
+                                <div class="slide-main ">
+                                    <div class="slide-img">
+                                        <img src="andrew_tates.png" alt="">
+                                    </div>
+                                    <div class="slide-content">
+                                        <h1>Andrew Tates</h1>
+                                    <p>"Success is a product of consistency. It's not about doing something once, it's about doing it over and over until you master it"</p>
+                                    </div>
+                                </div>
+                                <div class="slide-main ">
+                                    <div class="slide-img">
+                                        <img src="miyamoto.png" alt="">
+                                    </div>
+                                    <div class="slide-content">
+                                        <h1>Miyamoto Musashi</h1>
+                                    <p>"There is nothing outside of yourself that can ever enable you to get better, stronger, richer, quicker, or smarter. Everything is within. Everything exists. Seek nothing outside of yourself."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RESULT -->
+                    <div id="result" class="container__content ">
+                        <div class="container__result">
+                            <div class="container__content-product">
+                                <div class="container__content-title">
+                                <h1>Một số Project của tôi!</h1>
+                            </div>
+                            <div class="container__content-img-item row">
+                                <div class="container__content-img col l-6 m-6 c-12">
+                                    <div class="img-link">
+                                    <a href="./assets/results/thuattoan/index.html" target="_blank">
+                                        <div class="results-img">
+                                            <img src="./assets/img/thuattoan.png" alt="">
+                                            <div class="results-img-hover">
+                                                <div class="display-flex">
+                                                    <h1>Ngôn ngữ:&nbsp</h1> <span>HTML-Javascript</span>
+                                                </div>
+                                                <div class="display-flex">
+                                                    <h1>Thư viện/Famework:&nbsp</h1> <span>Không</span>
+                                                </div>
+                                                <div class="source-code">
+                                                    <a href="https://github.com/duchl02/duchl02.github.io/tree/main/assets/results/thuattoan" target="_blank"> Source Code</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <b><a href="./assets/results/thuattoan/index.html" target="_blank">Thuật toán Javascript</a></b>
+                                </div> 
+                                <div class="container__content-img col l-6 m-6 c-12">
+                                    <div class="img-link">
+                                        <a  href="./assets/results/shopmaytinh/index.html" target="_blank">
+                                            <div class="results-img">
+                                                <img src="./assets/img/shopmaytinh.png" alt="">
+                                                <div class="results-img-hover">
+                                                    <div class="display-flex">
+                                                        <h1>Ngôn ngữ:&nbsp</h1> <span>HTML-CSS-Javascript</span>
+                                                    </div>
+                                                    <div class="display-flex">
+                                                        <h1>Thư viện/Famework:&nbsp</h1> <span>SASS</span>
+                                                    </div>
+                                                    <div class="source-code">
+                                                        <a href="https://github.com/duchl02/duchl02.github.io/tree/main/assets/results/shopmaytinh" target="_blank"> Source Code</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <b> <a  href="./assets/results/shopmaytinh/index.html" target="_blank">Shop máy tính</a></b>
+                                </div> 
+                                <div class="container__content-img col l-6 m-6 c-12">
+                                    <div class="img-link">
+                                    <a href="./assets/results/CloneYoutube/index.html" target="_blank">
+                                        <div class="results-img">
+                                            <img src="./assets/img/cloneyoutube.png" alt="">
+                                            <div class="results-img-hover">
+                                                <div class="display-flex">
+                                                    <h1>Ngôn ngữ:&nbsp</h1> <span>HTML-CSS-Javascript</span>
+                                                </div>
+                                                <div class="display-flex">
+                                                    <h1>Thư viện/Famework:&nbsp</h1> <span>SASS</span>
+                                                </div>
+                                                <div class="source-code">
+                                                    <a href="https://github.com/duchl02/duchl02.github.io/tree/main/assets/results/CloneYoutube" target="_blank"> Source Code</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <b><a href="./assets/results/CloneYoutube/index.html" target="_blank">Youtube Clone</a> </b>
+                                </div>  
+                                <div class="container__content-img col l-6 m-6 c-12">
+                                    <div class="img-link">
+                                    <a href="./assets/results/Xuan_playMusic/index.html" target="_blank">
+                                        <div class="results-img">
+                                            <img src="./assets/img//playmusic.png" alt="">
+                                            <div class="results-img-hover">
+                                                <div class="display-flex">
+                                                    <h1>Ngôn ngữ:&nbsp</h1> <span>HTML-CSS-Javascript</span>
+                                                </div>
+                                                <div class="display-flex">
+                                                    <h1>Thư viện/Famework:&nbsp</h1> <span>Không</span>
+                                                </div>
+                                                <div class="source-code">
+                                                    <a href="https://github.com/xuantran0503/tieu-su_xuan-coder.github.io/tree/main/assets/results/Xuan_playMusic" target="_blank"> Source Code</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <b><a href="./assets/results/Xuan_playMusic/index.html" target="_blank">Play music</a></b>
+                                </div> 
+                                <div class="container__content-img col l-6 m-6 c-12">
+                                    <div class="img-link">
+                                    <a href="./assets/results/ShopeeClone/index.html" target="_blank">
+                                        <div class="results-img">
+                                            <img src="./assets/img/shopee.png" alt="">
+                                            <div class="results-img-hover">
+                                                <div class="display-flex">
+                                                    <h1>Ngôn ngữ:&nbsp</h1> <span>HTML-CSS</span>
+                                                </div>
+                                                <div class="display-flex">
+                                                    <h1>Thư viện/Famework:&nbsp</h1> <span>Không</span>
+                                                </div>
+                                                <div class="source-code">
+                                                    <a href="https://github.com/duchl02/duchl02.github.io/tree/main/assets/results/ShopeeClone" target="_blank"> Source Code</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <b><a href="./assets/results/ShopeeClone/index.html" target="_blank">Shopee clone</a></b> 
+                                </div>
+                                <div class="container__content-img col l-6 m-6 c-12">
+                                    <div class="img-link">
+                                    <a href="./assets/results/Clock/index.html" target="_blank">
+                                        <div class="results-img">
+                                            <img src="./assets/img/clock.png" alt="">
+                                            <div class="results-img-hover">
+                                                <div class="display-flex">
+                                                    <h1>Ngôn ngữ:&nbsp</h1> <span>HTML-CSS-Javascript</span>
+                                                </div>
+                                                <div class="display-flex">
+                                                    <h1>Thư viện/Famework:&nbsp</h1> <span>Không</span>
+                                                </div>
+                                                <div class="source-code">
+                                                    <a href="https://github.com/duchl02/duchl02.github.io/tree/main/assets/results/Clock" target="_blank"> Source Code</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <b><a href="./assets/results/Clock/index.html" target="_blank">Đồng hồ</a></b>
+                                </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TARGET -->
+                    <div id="target" class="container__content">
+                        <div class="container__target">
+                            <h1>Mục Tiêu!</h1>
+                            <h2>Học HTMl - CSS - Javascript cơ bản</h2>
+                            <h4>01/07/2022 (Mới được 50%)</h4>
+                            <p>Là ngôn ngữ để bắt đầu bước vào con đường lập trình HTML và CSS có mối tương quan mật thiết. HTML là nền tảng của site và CSS giúp định hình phong cách (tất cả những gì tạo nên giao diện website). Hai yếu tố này hoàn toàn không thể tách rời. HTML đóng vai trò cung cấp cấu trúc nội dung và xác định nội dung đó. Các nội dung này có thể kể đến như tiêu đề, đoạn văn hoặc hình ảnh. </p>
+                            <h2>Học sử dụng GIT và SASS</h2>
+                            <h4>01/08/2022 (Chưa hoàn thành)</h4>
+                            <p>Hiện nay, Git trở thành một trong các phần mềm quản lý mã nguồn phổ biến nhất. Việc biết sử dụng Git sẽ là lợi thế lớn với nhà tuyển dụng vì độ phổ biến và sự ứng dụng cao của nó. Với SASS, bạn có thể viết CSS theo thứ tự rõ ràng, quản lý các biến đã được định nghĩa sẵn, các class dùng chung hay có thể tự động nén tập tin CSS lại để bạn tiết kiệm dung lượng.</p>
+                            <h2>Biết Sử Dụng Jquery và thuần thục Javascript</h2>
+                            <h4>01/09/2022 (Chưa hoàn thành)</h4>
+                            <p>Jquery và Boostrap là hai thư viện quan trọng nhất định phải học khi làm lập trình viên Front End. Việc sử dụng thuần thục hai thư viện này sẽ giúp code nhanh gọn và học ReactJS nhanh hơn.</p>
+                            <h2>Học ReactJS và luyện tập Javascript</h2>
+                            <h4>01/10/2022 (Chưa hoàn thành)</h4>
+                            <p>ReactJS là yêu cầu thiết yếu của các nhà tuyển dụng Front End, nhằm nâng cao và tối ưu hoá UI. Bên cạch đó việc nâng khả năng Javascript càng quan trọng không kém, có khả năng viết tốt Javascript mới kết hợp được tất cả kiến thức tạo ra sự trơn tru mạch lạc.Trong thời gian này bản thân sẽ cố gắng luyện code nhiều nhất có thể, một tuần sẽ cố gắng cho ra một sản phẩm hoàn chỉnh và sẽ được đưa vào CV.</p>
+                            
+                        </div>
+                    </div>
+                    <!-- ENJOIN -->
+                    <div id="enjoin" class="container__content">
+                        <div class="container__enjoin ">
+                            <h2>Sở Thích</h2>
+                            <div class="container__enjoin-item">
+                                <img src="./assets/img/hoanghon.png" alt="" class="enjoin-img">
+                                <div class="enjoin-description">
+                                    <h1>Ngắm hoàng hôn </h1>
+                                    <p>Thích ngắm bầu trời là kẻ mộng mơ , thích nghe nhạc cũ là kẻ nặng tình. Có những buổi chiều ta đơn phương dạo bước trên con đường đầy những chiếc lá khô rơi rụng ngắm nhìn khung cảnh chiều hoàng hôn lãng du, thả mình theo làn gió nhẹ đâu đó lướt ngang qua. Đôi khi, chỉ đơn giản như thế cũng đủ khiến ta cảm thấy thoải mái và yên bình đến lạ.  Hoàng hôn với làn gió chiều lãng du khẽ lay động tâm hồn của kẻ suy tư gợi nhớ về những kỷ niệm tưởng chừng đã lắng sâu.</p>
+                                </div>
+                            </div>
+                            <div class="container__enjoin-item">
+                                <img src="./assets/img/jav.webp" alt="" class="enjoin-img">
+                                <div class="enjoin-description">
+                                    <h1>Japanese Anti Virus</h1>
+                                    <p>JAV là trình diệt virus. Triệu chứng khi mắc loại virus này là cảm giác bức rức trong người, căng cơ và bị cứng đột ngột ở một số bộ phận trên cơ thể. Sau khi sử dụng trình diệt virus này, có cảm giác sảng khoái như được xả stress trút bỏ được gánh nặng nào đó, ngày nào cũng phải xem ít nhất 180 phút mới chịu được.</p>
+                                </div>
+                            </div>
+                            <div class="container__enjoin-item">
+                                <img src="./assets/img/mayTinh.jpeg" alt="" class="enjoin-img">
+                                <div class="enjoin-description">
+                                    <h1>Đồ chơi công nghệ</h1>
+                                    <p>Đồ chơi công nghệ là những món đồ chơi luôn có sức hấp dẫn đối với những người đam mê công nghệ.  Các sản phẩm đồ chơi công nghệ độc đáo, đầy sáng tạo, bao gồm cả các thiết bị công nghệ hỗ trợ các hoạt động gia đình và cả các thiết bị đồ chơi điều khiển từ xa như nhà thông minh, robot hút bụi lau nhà tự động, xe điều khiển từ xa, flycam, thuyền, tàu cano điều khiển từ xa , máy bay điều khiển từ xa,..</p>
+                                </div>
+                            </div>
+                            
+                            <div class="container__enjoin-item">
+                                <img src="./assets/img/lienquan.jpeg" alt="" class="enjoin-img">
+                                <div class="enjoin-description">
+                                    <h1>Liên Quân Mobile</h1>
+                                    <p>Garena Liên Quân Mobile là một trò chơi đấu trường trận chiến trực tuyến nhiều người chơi do Timi Studio, một studio trực thuộc Tencent Games phát triển và phát hành bởi Garena, phân phối trên các nền tảng di động Android, iOS và Nintendo Switch, bắt đầu từ cuối năm 2016.</p>
+                                </div>
+                            </div>
+                            <div class="container__enjoin-item">
+                                <img src="./assets/img/bunchaaaaaa.jpeg"  alt="" class="enjoin-img">
+                                <div class="enjoin-description">
+                                    <h1>Bún chả Hà Nội</h1>
+                                    <p>Bún chả là một món ăn của Việt Nam, bao gồm bún, chả thịt lợn nướng trên than hoa và bát nước mắm chua cay mặn ngọt. Món ăn xuất xứ từ miền Bắc Việt Nam, là thứ quà có sức sống lâu bền nhất của Hà Nội.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+
+    const $ = document.querySelector.bind(document)
+    const $$ = document.querySelectorAll.bind(document)
+
+    const items = $$('.container__selection-item')
+    const contents = $$('.container__content')
+
+    // CONTAINER-ITEM
+    items.forEach(function(item,index) {
+        item.onclick = function(){
+            const content = contents[index]
+            // tabActive()
+            $('.container__content.active').classList.remove('active')
+            $('.container__selection-item.active').classList.remove('active')
+
+            item.classList.add('active')
+            content.classList.add('active')
+        }
+    })
+    function tabActive(){
+        document.documentElement.scrollTop= 100 + 'px'
+    }
+    // DOT-SLIDE
+    const dots=$$('.slide-dot-item')
+    const slides=$$('.slide-main')
+    const numberOfSilides = slides.length
+    var slideNumber = 0
+    var slideIndex = 0
+    dots.forEach(function(dot,index){
+        dot.onclick = function(){
+            const slide = slides[index]
+            $('.slide-main.active').classList.remove('active')
+            $('.slide-dot-item.active').classList.remove('active')
+            dot.classList.add('active')
+            slide.classList.add('active')
+        }
+    })
+    // AUTO SLIDE
+    function autoSlide(){
+        setInterval(function(){
+            dots.forEach(function(dot){
+            dot.classList.remove('active')
+            })
+            slides.forEach(function(slide){
+            slide.classList.remove('active')
+            })
+            slideNumber ++
+            
+            if (slideNumber > dots.length-1){
+                slideNumber =0;
+            }
+            dots[slideNumber].classList.add('active')
+            slides[slideNumber].classList.add('active')
+        },5000)
+    }
+    autoSlide()
+    // NEXT SLIDE
+    const backBtn = $('.slide-left')
+    const nextBtn = $('.slide-right')
+    
+    nextBtn.addEventListener('click', function(){
+        dots.forEach(function(dot){
+            dot.classList.remove('active')
+            })
+            slides.forEach(function(slide){
+            slide.classList.remove('active')
+            })
+            slideNumber ++
+            
+            if (slideNumber > dots.length-1){
+                slideNumber =0;
+            }
+            dots[slideNumber].classList.add('active')
+            slides[slideNumber].classList.add('active')
+    })
+    // BACK SLIDE
+    backBtn.addEventListener('click', function(){
+        dots.forEach(function(dot){
+            dot.classList.remove('active')
+            })
+            slides.forEach(function(slide){
+            slide.classList.remove('active')
+            })
+            slideNumber --
+
+            if(slideNumber<0){
+                slideNumber = dots.length -1
+            }
+            dots[slideNumber].classList.add('active')
+            slides[slideNumber].classList.add('active')
+    })
+    const loading= $('.loading')
+    // HIỆU ỨNG LOADING GIẢ
+    setTimeout(function(){
+        loading.classList.remove('active')
+    },1000)
+</script>
+</body>
+</html>
