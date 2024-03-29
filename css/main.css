@@ -36,8 +36,29 @@ html{
     100%{opacity: 0;}
 }
 .main{
-    background: linear-gradient(50deg,white,teal,aqua,dodgerblue,blue,navy,purple,fuchsia,pink,
-    hotpink,deeppink,tomato);
+    background: linear-gradient(50deg,
+    white,
+    yellow,
+    greenyellow,
+    chartreuse,
+    limegreen,
+    springgreen,
+    teal,
+    cyan,
+    azure,
+    skyblue,
+    dodgerblue,
+    blue,
+    navy,
+    purple,
+    magenta,
+    rgb(255, 0, 162),
+    fuchsia,
+    pink,
+    hotpink,
+    deeppink,
+    tomato,
+    red);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
     padding:30px;
