@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Inconsolata', monospace;
 }
@@ -35,7 +36,7 @@ html{
     100%{opacity: 0;}
 }
 .main{
-    background: linear-gradient(50deg,orange,yellow,lime,green,white,teal,aqua,dodgerblue,blue,navy,purple,fuchsia,pink,
+    background: linear-gradient(50deg,white,teal,aqua,dodgerblue,blue,navy,purple,fuchsia,pink,
     hotpink,deeppink,tomato);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -491,8 +492,8 @@ i.fa-brands.fa-github {
     margin-bottom:0;
 }
 .container__hobbies-item img{
-    min-width:180px;
-    /* height:100px; */
+    width:180px;
+    height:180px;
     border-radius: 20px;
     object-fit: cover;
     margin:0 10px;
