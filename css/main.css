@@ -513,12 +513,12 @@ i.fa-brands.fa-github {
     margin-bottom:0;
 }
 .container__hobbies-item img{
-    width:180px;
-    height:180px;
+    width:120px;
+    height:120px;
     border-radius: 20px;
     object-fit: cover;
     margin:0 10px;
-    max-height: 180px;
+    max-height: 120px;
 }
 
 .hobbies-description h1{
