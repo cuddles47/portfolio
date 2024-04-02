@@ -493,10 +493,10 @@ i.fa-brands.fa-github {
 .container__hobbies-item img{
     width:150px;
     height:150px;
-    border-radius: 30px;
+    border-radius: 0px;
     object-fit: cover;
     margin: 10px;
-    max-height: 150px;
+    max-height: 180px;
 }
 
 .hobbies-description h1{
