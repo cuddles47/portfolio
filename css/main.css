@@ -36,7 +36,7 @@ html{
     100%{opacity: 0;}
 }
 .main {
-  background: linear-gradient(50deg, #E3BFC3, #DD7A83, #BF9DCD, #E1B79F);
+  background: linear-gradient(50deg,purple,bluenavy,cyan);
   background-size: 400% 400%; /* Adjust these values as needed */
   animation: gradient 15s ease infinite;
   padding: 30px;
